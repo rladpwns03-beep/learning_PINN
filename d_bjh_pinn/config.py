@@ -13,8 +13,8 @@ class DataConfig:
     """Dataset and preprocessing configuration."""
 
     csv_path: str
-    p_rel_column: str = "p_rel"
-    theta_column: str = "theta"
+    p_rel_column: str = "p/p0"
+    theta_column: str = "Va/cm3(STP)g-1"
     normalize: bool = True
 
 
